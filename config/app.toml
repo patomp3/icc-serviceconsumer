@@ -1,0 +1,22 @@
+# Application config file.
+[development]
+DBICC = "SIT62"
+DBATB2 = "QED"
+DBPED = "QED"
+disconnecturl = "http://localhost:8080/disconnect"
+reconnecturl = "http://localhost:8080/reconnect"
+cancelurl = "http://localhost:8080/cancel"
+queueurl = "amqp://admin:admin@172.19.218.104:5672/"
+queuename = "collection"
+updateorderurl = "http://localhost:8000/serviceupdate"
+
+[production]
+DBICC = "SIT62"
+DBATB2 = "QED"
+DBPED = "QED"
+disconnecturl = "http://localhost:8080/disconnect"
+reconnecturl = "http://localhost:8080/reconnect"
+cancelurl = "http://localhost:8080/cancel"
+queueurl = "amqp://admin:admin@172.19.218.104:5672/"
+queuename = "collection"
+updateorderurl = "http://localhost:8000/serviceupdate"
